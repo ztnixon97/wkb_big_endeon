@@ -1,0 +1,15 @@
+[package]
+name = "wkb_big_endian"
+version = "0.1.0"
+edition = "2021"
+authors = ["Z Nixon"]
+description = "A library for reading and writing WKB (Well Known Binary) data in big endian format."
+keywords = ["wkb", "well known binary", "big endian","geo"]
+repository = ""
+license = "MIT"
+
+[dependencies]
+geo-types = "0.7.13"
+num-traits = "0.2.19"
+
+
